@@ -31,8 +31,13 @@
      pip install -e .
      ```
      
-##
+### Verify installation
 
+ ```
+ python -m PyTerminalColor
+ ```
+     
+##
 ### Features
 
    - `Foreground Colors`: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, LIGHT_GRAY, CYAN
@@ -40,8 +45,39 @@
    - `Styles`: NORMAL, BOLD, ITALIC, UNDERLINE
 
 ##
-## [License]()
-<!--   MIT License -->
+## Usage
+- Import and create an TerminalColor object.
+ ```python 
+ from PyTerminalColor.TerminalColor import TerminalColor
+ 
+ 
+ colorize = TerminalColor(fgcolor='YELLOW', bgcolor='RED', style='BOLD')
+ ```
+ 
+- print colored text with default object values
+```python
+colorize.cprint('TerminalColor')
+```
+
+- print colored text with other values
+ ```python
+ colorize.cprint('TerminalColor',use_default=False, fgcolor='YELLOW', bgcolor='BLACK', style='ITALIC')
+ ```
+ 
+ > cprint default values:
+  > ```python
+  > use_default = True
+  > fgcolor = 'LIGHT_GRAY'
+  > bgcolor = 'BLACK'
+  > style = 'NORMAL'
+  > ```
+ 
+<!-- ![Output]() -->
+
+
+##
+## [License](https://github.com/dmdhrumilmistry/PyTerminalColor/blob/main/LICENSE)
+  **MIT License**
   
   
 ##

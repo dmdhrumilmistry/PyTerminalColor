@@ -1,6 +1,8 @@
 # PyTerminalColor
  Create attractive python progams with foreground, background colors and styles.
  
+ - Help
+ ![Help](https://github.com/dmdhrumilmistry/PyTerminalColor/blob/main/.images/%230_help.PNG?raw=true)
 
 ##
 
@@ -72,7 +74,9 @@ colorize.cprint('TerminalColor')
   > style = 'NORMAL'
   > ```
  
-<!-- ![Output]() -->
+ - Preview
+  
+![Output](https://github.com/dmdhrumilmistry/PyTerminalColor/blob/main/.images/%231_cprint.PNG?raw=true)
 
 
 ##

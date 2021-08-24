@@ -5,10 +5,10 @@ if __name__ == '__main__':
     colorize = TerminalColor(fgcolor='YELLOW', style='UNDERLINE')
 
     # override default values
-    colorize.cprint(' TerminalCOLOR ', use_default=False, fgcolor='YELLOW', bgcolor='RED', style='BOLD')
+    colorize.cprint('\n TerminalCOLOR ', use_default=False, fgcolor='YELLOW', bgcolor='RED', style='BOLD')
 
     # using default values
-    colorize.cprint('Author: Dhrumil Mistry\n')
+    colorize.cprint('Author: Dhrumil Mistry', end='\n\n')
 
     # print help
     help(TerminalColor)
